@@ -1,0 +1,24 @@
+// This gets the network names in the surrounding area
+sudo iwlist wlan0 scan | grep ESSID
+
+// This is the configuration file for the wifi
+sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+
+network={
+	ssid="Name of Wifi"
+	psk="Password of Wifi"
+}
+
+//This resets the network card
+sudo systemctl daemon-reload
+sudo service networking restart
+
+
+then run commmands
+
+sudo ifdown wlan0
+sudo ifup wlan0
+
+wait for it to connect
+
+Done.
