@@ -22,8 +22,8 @@ sudo cp a.txt /etc/wpa_supplicant/wpa_supplicant.conf
 rm a.txt
 
 # These commands will reset the wifi to allow for it to reconnect without reboot
-sudo ifdown wlan0
-sudo ifup wlan0
+sudo ifdown wlan1
+sudo ifup wlan1
 
 
 echo
