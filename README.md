@@ -42,6 +42,6 @@
       http://heirloom.sourceforge.net/mailx.html
       
    **Broadcasting Wifi Resource:**
-      http://elinux.org/RPI-Wireless-Hotspot
-      https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/
-      https://seravo.fi/2014/create-wireless-access-point-hostapd
+      http://elinux.org/RPI-Wireless-Hotspot  
+      https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/  
+      https://seravo.fi/2014/create-wireless-access-point-hostapd  
