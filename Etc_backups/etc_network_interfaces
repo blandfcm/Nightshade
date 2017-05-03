@@ -25,3 +25,10 @@ iface wlan0 inet static
     netmask 255.255.255.0
     network 172.24.1.0
     broadcast 172.24.1.255
+
+bridge_ports wlan1 wlan0
+
+#iface wlan0 inet static
+#address 10.0.0.1
+#netmask 255.255.255.0
+#broadcast 255.0.0.0
