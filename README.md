@@ -22,25 +22,39 @@
          bash ./execute_when_internet_detected
    
    * SSH into your Pi
-   * Run the following commands:
+   * Method 1 of Execution (SSH on Target Network is Allowed)
+   ----------------------------------------------------------
+       * Run the following commands:
    
-         sudo service hostapd start  
-         sudo service dnsmasq start
+             sudo bash ./easy_payload.sh
    
-   * When satisified with its run time, stop it with:
+       * When satisified with its run time, stop it with:
    
-         sudo service hostapd stop 
-         sudo service dnsmasq stop 
+             sudo bash ./stop_wifi.sh
+         
+    * Method 2 of Execution (SSH on Target Not Allowed)
+    ---------------------------------------------------
+        * Run the following command:
+   
+              sudo bash ./payload.sh
+         
+        * Turn Pi back on and reconnect to phone's personal hotspot
          
    * Run the filter program on your log file
          
-         TODO
+         sudo ./categorize_data
    
 **Resources:**
 
-   * Heirloom Mailx:
+   * **Heirloom Mailx:**
       http://heirloom.sourceforge.net/mailx.html
-      
+    
+   * **Hostapd:**  
+      https://w1.fi/hostapd/
+
+   * **Dnsmasq:**  
+      http://www.thekelleys.org.uk/dnsmasq/doc.html 
+    
    * **Broadcasting Wifi Resource:**  
       http://elinux.org/RPI-Wireless-Hotspot  
       https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/  
