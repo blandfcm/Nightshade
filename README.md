@@ -44,7 +44,7 @@
    
 **Resources:**
 
-   * **Heirloom Mailx:**
+   * **Heirloom Mailx:**   
       http://heirloom.sourceforge.net/mailx.html
     
    * **Hostapd:**  
