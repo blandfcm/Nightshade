@@ -23,7 +23,6 @@
    
    * SSH into your Pi
    * Method 1 of Execution (SSH on Target Network is Allowed)
-   ----------------------------------------------------------
        * Run the following commands:
    
              sudo bash ./easy_payload.sh
@@ -33,7 +32,6 @@
              sudo bash ./stop_wifi.sh
          
     * Method 2 of Execution (SSH on Target Not Allowed)
-    ---------------------------------------------------
         * Run the following command:
    
               sudo bash ./payload.sh
